@@ -335,17 +335,6 @@ section3:addButton("Small", function()
                                     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
                                     end)
 
-local page = venyx:addPage("Other Scripts", 5012544693)
-local section9 = page:addSection("Other Scripts!")
-section9:addButton("Skull Hub V.1", function()
-    print("Clicked")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gunonmalt/Skull-hub-script/main/Farm%20Script",true))();
-    end)
-    section9:addButton("Gunonm_alt Priv Farm", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/gunonmalt/farm-/main/FARMM",true))();
-        end)
-
 local theme = venyx:addPage("Settings", 5012544693)
 local colors = theme:addSection("Theme!")
 
